@@ -53,5 +53,12 @@
     "dependencies": {},
     "hooks": {
         "pre-commit": "lint-staged"
+    },
+    "lint-staged": {
+        "packages/**/*.js": [
+            "eslint --fix",
+            "prettier --write",
+            "git add"
+        ]
     }
 }
