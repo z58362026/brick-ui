@@ -1,9 +1,9 @@
 <template>
     <button
         type="button"
+        :style="style"
         :class="bem({ primary, secondary: !primary, [size]: true })"
         @click="onClick"
-        :style="style"
     >
         {{ label }}
     </button>

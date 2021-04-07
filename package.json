@@ -14,9 +14,11 @@
         "@storybook/builder-webpack5": "^6.2.3",
         "@storybook/theming": "^6.2.3",
         "@storybook/vue": "^6.2.3",
+        "babel-eslint": "^10.1.0",
         "babel-loader": "^8.2.2",
         "css-loader": "^5.2.0",
         "eslint": "^7.23.0",
+        "eslint-config-prettier": "^8.1.0",
         "eslint-plugin-prettier": "^3.3.1",
         "eslint-plugin-vue": "^7.8.0",
         "file-loader": "^6.2.0",
@@ -45,7 +47,8 @@
         "build:components": "webpack --config build/webpack.components.js",
         "prepublishOnly": "npm run build",
         "storybook": "start-storybook -p 6006",
-        "build-storybook": "build-storybook"
+        "build-storybook": "build-storybook",
+        "lint": "eslint packages/**/*.js"
     },
     "dependencies": {},
     "hooks": {
