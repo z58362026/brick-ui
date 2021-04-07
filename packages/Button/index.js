@@ -4,9 +4,9 @@ import bem from '../../src/mixin/bem'
 
 Button.mixins = [bem]
 
-Button.install = function (Vue) {
+Button.install = function(Vue) {
     Vue.component('Boss' + Button.name, Button)
 }
-const a = 1;
+const a = 1
 
 export default Button

@@ -48,7 +48,8 @@
         "prepublishOnly": "npm run build",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
-        "lint": "eslint packages/**/*.js"
+        "lint": "eslint packages/**/*.js",
+        "fix": "prettier --write packages/**/*.js"
     },
     "dependencies": {},
     "hooks": {
