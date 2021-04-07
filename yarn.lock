@@ -9112,7 +9112,7 @@ prettier@^1.18.2:
   resolved "https://npm.weizhipin.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha1-99f1/4qc2HKnvkyhQglZVqYHl8s=
 
-prettier@~2.2.1:
+prettier@^2.2.1, prettier@~2.2.1:
   version "2.2.1"
   resolved "https://npm.weizhipin.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
   integrity sha1-eVoaeN1S8HPaDNQrIfnJE4GSP/U=
